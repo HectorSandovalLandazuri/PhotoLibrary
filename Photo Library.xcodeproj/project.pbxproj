@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2F8B3AD2AFD50C60061694D /* FriendFaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3AC2AFD50C60061694D /* FriendFaceApp.swift */; };
+		A2F8B3AD2AFD50C60061694D /* PhotoLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3AC2AFD50C60061694D /* PhotoLibraryApp.swift */; };
 		A2F8B3AF2AFD50C60061694D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3AE2AFD50C60061694D /* ContentView.swift */; };
 		A2F8B3B12AFD50C70061694D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F8B3B02AFD50C70061694D /* Assets.xcassets */; };
 		A2F8B3B42AFD50C70061694D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F8B3B32AFD50C70061694D /* Preview Assets.xcassets */; };
+		A2F8B3BC2AFD52050061694D /* CodableMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3BB2AFD52050061694D /* CodableMKPointAnnotation.swift */; };
+		A2F8B3BE2AFD527F0061694D /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3BD2AFD527F0061694D /* Picture.swift */; };
+		A2F8B3C22AFD53040061694D /* ModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3C12AFD53040061694D /* ModifiersView.swift */; };
+		A2F8B3C52AFD53820061694D /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3C42AFD53820061694D /* LocationFetcher.swift */; };
+		A2F8B3C72AFD53D30061694D /* PlusButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3C62AFD53D30061694D /* PlusButtonView.swift */; };
+		A2F8B3C92AFD548D0061694D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3C82AFD548D0061694D /* CircleView.swift */; };
+		A2F8B3CB2AFD54FB0061694D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3CA2AFD54FB0061694D /* MapView.swift */; };
+		A2F8B3CD2AFD556B0061694D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3CC2AFD556B0061694D /* ImagePicker.swift */; };
+		A2F8B3CF2AFD55F50061694D /* EditPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3CE2AFD55F50061694D /* EditPictureView.swift */; };
+		A2F8B3D12AFD57AE0061694D /* ManageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3D02AFD57AE0061694D /* ManageData.swift */; };
+		A2F8B3D32AFD59160061694D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F8B3D22AFD59160061694D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2F8B3A92AFD50C60061694D /* FriendFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2F8B3AC2AFD50C60061694D /* FriendFaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFaceApp.swift; sourceTree = "<group>"; };
+		A2F8B3A92AFD50C60061694D /* Photo Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F8B3AC2AFD50C60061694D /* PhotoLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryApp.swift; sourceTree = "<group>"; };
 		A2F8B3AE2AFD50C60061694D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2F8B3B02AFD50C70061694D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F8B3B32AFD50C70061694D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2F8B3BB2AFD52050061694D /* CodableMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableMKPointAnnotation.swift; sourceTree = "<group>"; };
+		A2F8B3BD2AFD527F0061694D /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		A2F8B3C12AFD53040061694D /* ModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersView.swift; sourceTree = "<group>"; };
+		A2F8B3C42AFD53820061694D /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		A2F8B3C62AFD53D30061694D /* PlusButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButtonView.swift; sourceTree = "<group>"; };
+		A2F8B3C82AFD548D0061694D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		A2F8B3CA2AFD54FB0061694D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A2F8B3CC2AFD556B0061694D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A2F8B3CE2AFD55F50061694D /* EditPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPictureView.swift; sourceTree = "<group>"; };
+		A2F8B3D02AFD57AE0061694D /* ManageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageData.swift; sourceTree = "<group>"; };
+		A2F8B3D22AFD59160061694D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +57,7 @@
 		A2F8B3A02AFD50C60061694D = {
 			isa = PBXGroup;
 			children = (
-				A2F8B3AB2AFD50C60061694D /* FriendFace */,
+				A2F8B3AB2AFD50C60061694D /* PhotoLibrary */,
 				A2F8B3AA2AFD50C60061694D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +65,22 @@
 		A2F8B3AA2AFD50C60061694D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2F8B3A92AFD50C60061694D /* FriendFace.app */,
+				A2F8B3A92AFD50C60061694D /* Photo Library.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2F8B3AB2AFD50C60061694D /* FriendFace */ = {
+		A2F8B3AB2AFD50C60061694D /* PhotoLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				A2F8B3AC2AFD50C60061694D /* FriendFaceApp.swift */,
-				A2F8B3AE2AFD50C60061694D /* ContentView.swift */,
+				A2F8B3C32AFD53470061694D /* Map */,
+				A2F8B3C02AFD52DD0061694D /* Views */,
+				A2F8B3BA2AFD51930061694D /* Model */,
+				A2F8B3AC2AFD50C60061694D /* PhotoLibraryApp.swift */,
 				A2F8B3B02AFD50C70061694D /* Assets.xcassets */,
 				A2F8B3B22AFD50C70061694D /* Preview Content */,
 			);
-			path = FriendFace;
+			path = PhotoLibrary;
 			sourceTree = "<group>";
 		};
 		A2F8B3B22AFD50C70061694D /* Preview Content */ = {
@@ -67,12 +91,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A2F8B3BA2AFD51930061694D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2F8B3BB2AFD52050061694D /* CodableMKPointAnnotation.swift */,
+				A2F8B3BD2AFD527F0061694D /* Picture.swift */,
+				A2F8B3D02AFD57AE0061694D /* ManageData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2F8B3C02AFD52DD0061694D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2F8B3AE2AFD50C60061694D /* ContentView.swift */,
+				A2F8B3C12AFD53040061694D /* ModifiersView.swift */,
+				A2F8B3C62AFD53D30061694D /* PlusButtonView.swift */,
+				A2F8B3C82AFD548D0061694D /* CircleView.swift */,
+				A2F8B3CC2AFD556B0061694D /* ImagePicker.swift */,
+				A2F8B3CE2AFD55F50061694D /* EditPictureView.swift */,
+				A2F8B3D22AFD59160061694D /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2F8B3C32AFD53470061694D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A2F8B3C42AFD53820061694D /* LocationFetcher.swift */,
+				A2F8B3CA2AFD54FB0061694D /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2F8B3A82AFD50C60061694D /* FriendFace */ = {
+		A2F8B3A82AFD50C60061694D /* Photo Library */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2F8B3B72AFD50C70061694D /* Build configuration list for PBXNativeTarget "FriendFace" */;
+			buildConfigurationList = A2F8B3B72AFD50C70061694D /* Build configuration list for PBXNativeTarget "Photo Library" */;
 			buildPhases = (
 				A2F8B3A52AFD50C60061694D /* Sources */,
 				A2F8B3A62AFD50C60061694D /* Frameworks */,
@@ -82,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = FriendFace;
+			name = "Photo Library";
 			productName = FriendFace;
-			productReference = A2F8B3A92AFD50C60061694D /* FriendFace.app */;
+			productReference = A2F8B3A92AFD50C60061694D /* Photo Library.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2F8B3A42AFD50C60061694D /* Build configuration list for PBXProject "FriendFace" */;
+			buildConfigurationList = A2F8B3A42AFD50C60061694D /* Build configuration list for PBXProject "Photo Library" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2F8B3A82AFD50C60061694D /* FriendFace */,
+				A2F8B3A82AFD50C60061694D /* Photo Library */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F8B3C92AFD548D0061694D /* CircleView.swift in Sources */,
+				A2F8B3C72AFD53D30061694D /* PlusButtonView.swift in Sources */,
+				A2F8B3C22AFD53040061694D /* ModifiersView.swift in Sources */,
+				A2F8B3BE2AFD527F0061694D /* Picture.swift in Sources */,
+				A2F8B3C52AFD53820061694D /* LocationFetcher.swift in Sources */,
 				A2F8B3AF2AFD50C60061694D /* ContentView.swift in Sources */,
-				A2F8B3AD2AFD50C60061694D /* FriendFaceApp.swift in Sources */,
+				A2F8B3D12AFD57AE0061694D /* ManageData.swift in Sources */,
+				A2F8B3D32AFD59160061694D /* DetailView.swift in Sources */,
+				A2F8B3BC2AFD52050061694D /* CodableMKPointAnnotation.swift in Sources */,
+				A2F8B3CF2AFD55F50061694D /* EditPictureView.swift in Sources */,
+				A2F8B3CD2AFD556B0061694D /* ImagePicker.swift in Sources */,
+				A2F8B3CB2AFD54FB0061694D /* MapView.swift in Sources */,
+				A2F8B3AD2AFD50C60061694D /* PhotoLibraryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +339,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoLibrary/Preview Content\"";
 				DEVELOPMENT_TEAM = 495DRW5GJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need for use app";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Need for work app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,10 +370,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FriendFace/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoLibrary/Preview Content\"";
 				DEVELOPMENT_TEAM = 495DRW5GJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need for use app";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Need for work app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2F8B3A42AFD50C60061694D /* Build configuration list for PBXProject "FriendFace" */ = {
+		A2F8B3A42AFD50C60061694D /* Build configuration list for PBXProject "Photo Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2F8B3B52AFD50C70061694D /* Debug */,
@@ -334,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2F8B3B72AFD50C70061694D /* Build configuration list for PBXNativeTarget "FriendFace" */ = {
+		A2F8B3B72AFD50C70061694D /* Build configuration list for PBXNativeTarget "Photo Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2F8B3B82AFD50C70061694D /* Debug */,
